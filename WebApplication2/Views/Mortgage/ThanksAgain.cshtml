@@ -1,0 +1,11 @@
+﻿
+@{
+    ViewData["Title"] = "ThanksAgain";
+    MyNewClass newClass = ViewData["MyNewClass"] as MyNewClass;
+}
+
+<h1>
+    Thanks @((ViewData["MyNewClass"] as MyNewClass).FirstNamo)
+    @newClass.LastNamo for signing your life away :) 
+</h1>
+
